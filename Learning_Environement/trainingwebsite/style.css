@@ -1,5 +1,7 @@
 h1 {
-
+    font-size: 5vw;
+    background-color: #fff2ac;
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%)
 }
 
 h2 {
@@ -10,9 +12,15 @@ p {
 
 }
 
+
 #main {
     text-align: center;
+    min-width: 600px;
+    margin: auto;
+    border: 3px dotted black;
 }
+
+*  {box-sizing: border-box;}
 
 
 #responsive { 
@@ -28,10 +36,34 @@ p {
     font-weight: bold;
 }
 
+.navContainer {
+    display:flex;
+    flex-direction: row;
+    border: 3px dotted blue;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(79, 83, 156);
+}
+
+.navbutton {
+    color: red;
+    font-size: 2.5vw;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    border: 2px padded yellow;
+}
+
+.navContainer > .navbutton {
+    flex: 1;
+}
+
 .flex-container {
     display: flex;
     border:1px solid rgb(174, 200, 202);
     flex-direction: row;
+    flex: 
 }
 
 .colonne {

@@ -1,0 +1,32 @@
+body {
+    background-image: url(https://drive.google.com/uc?export=view&id=15MTk6zYaSlBiIZ_GIkxsktAsviEaMkuK);
+    background-repeat: repeat;
+}
+
+h1 { 
+    font-size: 1.5em;
+    background-color: #fff2ac;
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+    text-align: center;
+    }
+
+    /* To-Do: personnaliser le button ! */
+.button {
+    background-color: white;
+    border : 2px solid black;
+    color: black;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+    text-align: center;
+    font-weight: bold;
+
+    
+}
+
+    /* To-DO : personnaliser le bouton en subrillance */
+.button:hover {
+    background-color: gold;
+}
